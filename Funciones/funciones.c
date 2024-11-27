@@ -17,8 +17,8 @@ void menu(){
     printf("[ */x ] Multiplicacion\n");
     printf("[ //d ] Division\n");
     printf("[ p/^ ] Potencia\n");
+    printf("Elige una opcion: ");
     scanf("%s", &op);
-
 }
 
 float suma(float val1,float val2){
@@ -71,6 +71,20 @@ int main(){
     
     return 0;
  }
+
+float division(){
+    float res=0;
+    res=v1/v2;
+    return res;
+}
+
+float potencia(){
+    float res=0;
+    res=pow(v1,v2);
+    return res;
+}
+
+
 
  
  /*
